@@ -8,10 +8,6 @@ variable "cluster_version" {
   type    = string
 }
 
-variable "eks_auth_users" {
-  type    = list(string)
-  default = ["716239669288"]
-}
 
 variable "region" {
  type =  string

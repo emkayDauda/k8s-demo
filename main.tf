@@ -73,8 +73,6 @@ module "eks" {
 
   vpc_id = module.vpc.vpc_id
 
-  aws_auth_accounts = var.eks_auth_users
-
   eks_managed_node_groups = {
     first = {
       desired_capacity = 3
